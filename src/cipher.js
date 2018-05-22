@@ -1,3 +1,5 @@
+alert('aqui esta mi funcion de decode y encode');
+
 window.cipher = {
   // ... 
 
@@ -6,3 +8,5 @@ window.cipher = {
   string.toupperCase();
   }
 };
+
+//funciones

@@ -1,1 +1,3 @@
-console.log(cipher.encode(2,'hola'))
+alert('aqui voy a manipular el dom')
+
+//document getElementById
