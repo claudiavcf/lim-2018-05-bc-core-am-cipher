@@ -1,0 +1,1 @@
+console.log(cipher.encode(2,'hola'))
