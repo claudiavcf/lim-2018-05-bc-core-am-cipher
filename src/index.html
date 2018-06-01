@@ -2,35 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--<h1>CAESAR CIPHER</h1>-->
     <h1>CAESAR CIPHER</h1>
-    <!--Agregando descripción-->
-    <p>Te imaginaste tener una aplicación que permita codificar tus mensajes para ocasiones especiales y tu grupo de amigos puedan entenderlo. Esto es posible aquí! Inténtalo!!</p>
-    <p2><strong>CIFRADO CÉSAR:</strong> El cifrado César fue nombrado así en honor a Julio César, quien usó un alfabeto con desplazamiento de tres espacios.<br>
-      Si tenía que decir algo confidencial, lo escribía usando el cifrado, esto es, cambiando el orden de las letras del alfabeto, para que ni una palabra pudiera entenderse.</p2><br><br>
     <!--Agregando formularios-->
-    <form><div class="formularios">
-      <label for="text"><strong>Escribe un mensaje</strong></label><br><br>
-      <textarea id="txtarea" style="width:700px" rows="10"></textarea>
-      <label id="dig">Ingresa digito:</label>
-      <input type="number" name="txtOffset" id="txtOffset" max="100" min="1" placeholder="1"/>
-      <input type="button" name="Cifrado" id="Cifrado" value="Cifrar"/>
-      <input type="button" name="Descifrado" id="Descifrado" value="Descifrar"/>
-      <input type="button" name="Limpiar" id="Limpiar" value="Limpiar"/>
-      <input type="button" name="Enviar" id="Enviar" value="Enviar"/>
-  
-      <p id="resultado"></p>
 
-    </div>
-    </form>
+    <p id="resultado"></p>
+
+   <form>
+     <div class="formularios" >
+      
+        <label id="dig">Ingresa digito:</label><br>
+        
+        <input type="number" name="txtOffset" id="txtOffset" max="100" min="1" /><br><br>
+        
+        <label id="text">Escribe un mensaje:</label><br>
+       
+       <textarea id="txtarea" ></textarea>
+
+      </div>
+    </form><br><br><br><br><br><br><br>
+
+     <div id="botones" class="botones">
+       <input type="button" class="boton Cifrado" id="Cifrado" value="Cifrar" style="width:150px; height:40px"/><br><br><br>
+       <input type="button" class="boton Descifrado" id="Descifrado" value="Descifrar" style="width:150px; height:40px"/><br><br><br>
+       <input type="button" class="boton Limpiar" id="Limpiar" value="Limpiar" style="width:150px; height:40px"/><br><br><br>
+       <input type="button" class="boton Enviar" id="Enviar" value="Enviar" style="width:150px; height:40px"/>
+      </div>
+
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
-    <footer>
-      <p1>Copyright © Claudia Cuela</p1>
-    </footer>
   </body>
 </html>

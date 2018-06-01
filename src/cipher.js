@@ -40,4 +40,9 @@ window.cipher = {
 		}
 		return resultadoDescifrado;
 	},
+
+	createCipherWithOffset: ()=>{
+		return;
+	}
+
 }

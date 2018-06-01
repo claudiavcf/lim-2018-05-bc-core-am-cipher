@@ -1,35 +1,72 @@
 body{
-    background-color: bisque;
+    /*background-color: #8DFA5E;*/
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/59/06/4257a3e641a7b4f.jpg");
+    background-repeat: no-repeat;
     margin: 0px;
-    vertical-align: 10px
+    background-size: 100px 100px;
+    background-size: 100% 100%;
 }
-h1{
-    text-align: center;
-    color: brown;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
+
+
+
 p{
-    text-align: center;
-    color: midnightblue;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px
+    padding: 60px;
+    font-size: 30px;
+  
 }
-p2{
-    color: midnightblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.boton{
+background-color: #ffffff;
+border: 3px groove #ffffff;
+font-size: 20px;
+}
+
+
+
+
+#dig{
+    
+    text-align: left;
     font-size: 20px;
 }
+
+#text{
+ 
+    text-align: left;
+    font-size: 20px;
+  
+}
+
+
+
+h1{
+    text-shadow: #555 2px 2px 3px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 form{
-    width: 30%;
-    border: 1px solid black;
+    width: 77%;
+    border: 3px groove #ffffff;
     margin: 50px;
     padding: 30px;
+    float: left
 }
+
 textarea{
-    background-color: snow;
-    align-content: center
+    height: 150px;
+    width: 1220px; 
+    border: 3px groove #ffffff; 
+    font-size: 30px;
 }
+
+#txtOffset{
+    border: 3px groove #ffffff; 
+    font-size: 20px;
+}
+
 label{
     color: black;
     font-size: 15px;
@@ -37,34 +74,15 @@ label{
     display: block;
     text-align: center
 }
-input{
+/*input{    para el tamaño de botones
     margin-bottom: 10px;
     width: 50%;
     display: block;
     overflow: auto
-}
+}*/
 .formularios{
     overflow: center
 }
 input.focus{
     border: 1px solid cornflowerblue
-}
-input[type="submit"]{
-    margin-bottom: 0;
-    background: cornflowerblue;
-    color: black;
-    border: none;
-    box-sizing: border-box;
-    border: 1px solid black
-}
-input[type="submit"]:hoover{
-    background: cornflowerblue;
-    cursor: pointer
-}
-footer{
-    background-color: #00004d;
-    font-size: 16px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
 }
