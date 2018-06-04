@@ -135,40 +135,41 @@ Usuario que lee el mensaje
 En este caso, se aplica el cifrado Caesar , para que solo los mencionados puedan usar este programa, que los ayudará a comunicarse de manera mas discreta y que otras personas no lo puedan leer.
 
 
-###Introducción:
+### Introducción:
 
 La necesidad de mantener la información a salvo de ojos curiosos no es nueva, es mucho más antigua de lo que, quizás, nos podemos llegar a imaginar. 
 Este proyecto se trata de crear un texto difícil de leer -el texto “cifrado”- realizando un reemplazo de cada letra del texto original por otra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
 
 
-###Funcionalidad:
+### Funcionalidad:
 
-* Cifrar
+* CIFRAR
 
-1 . El usuario deberá ingresar en el primer cuadro de texto una cantidad de dígitos.
-2 . El usuario escribirá el mensaje a encriptar en el segundo cuadro de texto.
-3 . El usuario hará click en el botón "Cifrar" (Esta opción funcionará al ingresar la cantidad de dígitos que ingreso y mi texto a encriptar)
-4 . El usuario podrá visualizar su texto encriptado en la parte superior de su pantalla.
-5 . Finalmente el usuario podrá enviar un mensaje cifrado.
-
-* Descrifrar
-
-1 . El usuario a quien le llegó el mensaje cifrado deberá ingresar en el primer cuadro de texto la cantidad de dígitos con la cual su compañero generó su texto cifrado.
-2 . El usuario copiará y pegará el mensaje encriptado que le envió su compañero, en el segundo cuadro de texto. 
-3 . El usuario hará click en el botón "Descifrar" (Esta opción funcionará al ingresar la cantidad de digitos que       ingreso y mi texto a desencriptar)
-4 . El usuario podrá leer el texto encriptado que le envió su compañero, en la parte superior de su pantalla.
+* El usuario deberá ingresar en el primer cuadro de texto una cantidad de dígitos.
+* El usuario escribirá el mensaje a encriptar en el segundo cuadro de texto.
+* El usuario hará click en el botón "Cifrar" (Esta opción funcionará al ingresar la cantidad de dígitos que ingreso y     mi texto a encriptar)
+* El usuario podrá visualizar su texto encriptado en la parte superior de su pantalla.
+* Finalmente el usuario podrá enviar un mensaje cifrado.
 
 
-###Diseño:
+* DESCIFRAR
+
+* El usuario a quien le llegó el mensaje cifrado deberá ingresar en el primer cuadro de texto la cantidad de dígitos con la cual su compañero generó su texto cifrado.
+* El usuario copiará y pegará el mensaje encriptado que le envió su compañero, en el segundo cuadro de texto. 
+* El usuario hará click en el botón "Descifrar" (Esta opción funcionará al ingresar la cantidad de digitos que         ingreso y mi texto a desencriptar)
+* El usuario podrá leer el texto encriptado que le envió su compañero, en la parte superior de su pantalla.
+
+
+### Diseño:
 
 Para realizar este proyecto, se implementó una interfaz con pocas opciones para comodidad del usuario y que sea mas facil y entendible para éste, al usarlo.
 
 
-###Descarga, Instalación y Ejecución
+### Descarga, Instalación y Ejecución
 
-Ir a la pagina https://github.com/claudiavcf/lim-2018-05-bc-core-am-cipher
-Seleccionar la opción "Clone or download" y luego la opción "Download Zip"
-Después de descomprimir la carpeta, ubicarse en el index.html para ejecutar el proyecto. 
+* Ir a la pagina https://github.com/claudiavcf/lim-2018-05-bc-core-am-cipher
+* Seleccionar la opción "Clone or download" y luego la opción "Download Zip"
+* Después de descomprimir la carpeta, ubicarse en el index.html para ejecutar el proyecto. 
 
 
 
